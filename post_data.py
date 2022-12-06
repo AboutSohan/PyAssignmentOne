@@ -37,10 +37,10 @@ post_data = [
     }, ]
 
 # Your Code Start from here
-
-
-
-
+i = 0
+while i < len(post_data):
+    slug = post_data[i].get('title').lower().strip().replace(' ', '-')
+    post_data[i].update({'slug':slug})
+    i += 1
 # Your code ends here
-
 print(post_data[4])
