@@ -12,15 +12,6 @@ mobile_data = {
 }
 
 #  Your Code Starts from here
-
-""" solving steps ----
-# Accessing values and assign with unique variable
-# converting price to float
-    # using float to separate price from the string '300 USD'
-    # converted to float
-"""
-
-# making templates
 i = 0
 while i < len(mobile_data.get('data')):
     phone_model = mobile_data.get('data')[i].get('name')
